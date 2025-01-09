@@ -5,7 +5,7 @@ tries=3
 while tries > 0 and user_pass != password:
     user_pass = input("enter password"+ "(you have" + " " + str(tries)+ " " +"tries left:")
 
-tries -=1
+tries -= 1
 
 if user_pass == password:
     print("access granted.")
